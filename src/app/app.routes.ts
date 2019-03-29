@@ -11,6 +11,7 @@ import { NopagefoundComponent } from './shared/nopagefound/nopagefound.component
 
 
 const appRoutes: Routes = [
+  /*
     { path: '', component: PagesComponent,
         children: [
           { path: 'dashboard', component: DashboardComponent},
@@ -19,6 +20,7 @@ const appRoutes: Routes = [
           { path: '', redirectTo: '/dashboard', pathMatch: 'full'},
         ]
     },
+    */
     { path: 'login', component: LoginComponent},
     { path: 'register', component: RegisterComponent},
     { path: '**', component: NopagefoundComponent}
