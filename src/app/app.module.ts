@@ -17,12 +17,12 @@ import { RegisterComponent } from './login/register/register.component';
   declarations: [
     AppComponent,
     LoginComponent,
-    RegisterComponent
+    RegisterComponent,
   ],
   imports: [
     BrowserModule,
     APP_ROUTES,
-    PagesModule
+    PagesModule,
 
   ],
   providers: [],
